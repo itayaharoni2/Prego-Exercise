@@ -2,7 +2,7 @@
 
 ## Active working time
 
-~ 3 hours
+~ 3 hours.
 Spent the first 2 hours to understand and build a plan, got stuck a bit on the missing CSV file (was a bit unclear from the instruction) and on understanding Stripe's API.
 The rest of the time is for building the program and debugging it
 
