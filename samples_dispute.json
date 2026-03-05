@@ -1,0 +1,17 @@
+{
+  "id": "dp_3PREG0Dispute0001",
+  "object": "dispute",
+  "amount": 4999,
+  "balance_transactions": [],
+  "charge": "ch_3PREG0Auth0001",
+  "created": 1739818800,
+  "currency": "usd",
+  "evidence_due_by": 1739991600,
+  "is_charge_refundable": false,
+  "livemode": false,
+  "metadata": {
+    "order_id": "order_1001"
+  },
+  "reason": "fraudulent",
+  "status": "needs_response"
+}

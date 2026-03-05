@@ -1,0 +1,16 @@
+{
+  "id": "re_3PREG0Refund0001",
+  "object": "refund",
+  "amount": 4999,
+  "balance_transaction": "txn_3PREG0TXN_REFUND0001",
+  "charge": "ch_3PREG0Auth0001",
+  "created": 1739732400,
+  "currency": "usd",
+  "metadata": {
+    "order_id": "order_1001"
+  },
+  "payment_intent": "pi_PREG0PI001",
+  "reason": "requested_by_customer",
+  "receipt_number": null,
+  "status": "succeeded"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "ch_3PREG0Decline0001",
+  "object": "charge",
+  "amount": 1299,
+  "amount_captured": 0,
+  "amount_refunded": 0,
+  "application": null,
+  "balance_transaction": null,
+  "captured": false,
+  "created": 1739728800,
+  "currency": "usd",
+  "customer": "cus_PREG0CUST002",
+  "description": "Prego - Add-on",
+  "disputed": false,
+  "failure_code": "insufficient_funds",
+  "failure_message": "Your card has insufficient funds.",
+  "fraud_details": {},
+  "invoice": null,
+  "livemode": false,
+  "metadata": {
+    "order_id": "order_1002"
+  },
+  "outcome": {
+    "network_status": "declined_by_network",
+    "reason": "insufficient_funds",
+    "risk_level": "normal",
+    "risk_score": 7,
+    "seller_message": "The bank returned the decline code `insufficient_funds`.",
+    "type": "issuer_declined"
+  },
+  "paid": false,
+  "payment_intent": "pi_PREG0PI002",
+  "payment_method": "pm_PREG0PM002",
+  "payment_method_details": {
+    "type": "card",
+    "card": {
+      "brand": "mastercard",
+      "checks": {
+        "address_line1_check": "pass",
+        "address_postal_code_check": "pass",
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 8,
+      "exp_year": 2029,
+      "fingerprint": "fp_test_mc_1",
+      "funding": "debit",
+      "last4": "4444",
+      "network": "mastercard"
+    }
+  },
+  "refunded": false,
+  "refunds": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/charges/ch_3PREG0Decline0001/refunds"
+  },
+  "status": "failed"
+}

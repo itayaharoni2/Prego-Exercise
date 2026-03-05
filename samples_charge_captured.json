@@ -1,0 +1,61 @@
+{
+  "id": "ch_3PREG0Auth0001",
+  "object": "charge",
+  "amount": 4999,
+  "amount_captured": 4999,
+  "amount_refunded": 0,
+  "application": null,
+  "balance_transaction": "txn_3PREG0TXN0001",
+  "captured": true,
+  "created": 1739725200,
+  "currency": "usd",
+  "customer": "cus_PREG0CUST001",
+  "description": "Prego - Starter Plan",
+  "disputed": false,
+  "failure_code": null,
+  "failure_message": null,
+  "fraud_details": {},
+  "invoice": null,
+  "livemode": false,
+  "metadata": {
+    "order_id": "order_1001"
+  },
+  "outcome": {
+    "network_status": "approved_by_network",
+    "reason": null,
+    "risk_level": "normal",
+    "risk_score": 12,
+    "seller_message": "Payment complete.",
+    "type": "authorized"
+  },
+  "paid": true,
+  "payment_intent": "pi_PREG0PI001",
+  "payment_method": "pm_PREG0PM001",
+  "payment_method_details": {
+    "type": "card",
+    "card": {
+      "brand": "visa",
+      "checks": {
+        "address_line1_check": "pass",
+        "address_postal_code_check": "pass",
+        "cvc_check": "pass"
+      },
+      "country": "US",
+      "exp_month": 12,
+      "exp_year": 2030,
+      "fingerprint": "fp_test_visa_1",
+      "funding": "credit",
+      "last4": "4242",
+      "network": "visa"
+    }
+  },
+  "refunded": false,
+  "refunds": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/charges/ch_3PREG0Auth0001/refunds"
+  },
+  "status": "succeeded"
+}

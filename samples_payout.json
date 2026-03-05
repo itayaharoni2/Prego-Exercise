@@ -1,0 +1,16 @@
+{
+  "id": "po_3PREG0Payout0001",
+  "object": "payout",
+  "amount": 120000,
+  "arrival_date": 1739905200,
+  "automatic": true,
+  "balance_transaction": "txn_3PREG0TXN_PAYOUT0001",
+  "created": 1739815200,
+  "currency": "usd",
+  "description": "Stripe payout",
+  "livemode": false,
+  "metadata": {},
+  "method": "standard",
+  "status": "paid",
+  "type": "bank_account"
+}
