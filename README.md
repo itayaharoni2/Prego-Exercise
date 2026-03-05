@@ -86,10 +86,10 @@ When a newer snapshot wins, any fields that are still `not_available` are backfi
 
 ## What I would improve with more time
 
-- I would create a function that handles the parsing of the input information in a more general way.
-  currently im relying on the Stripe format and the existence of the "Object" field, but i would love to be depending on that.
-  Also, in a seperate function its easy to add more data type that we want to work with without changing the code in the rest of the program (makes the process more modular and fexible).
+- I would create a seperate function that handles the parsing of the input information in a more general way.
+  currently im relying on the Stripe format and the existence of the "Object" field, but i would love to not be depending on that.
+  Also, in a seperate function it's easy to add more data type that we want to work with without changing the code in the rest of the program (makes the process more modular and fexible).
 
 - Currently, im skipping a lot of unknown types of objects im not familiar with.
-  In my opinion its better to save the new types in a database and review it - So if i see my system doesnt support frequently used objects i can decide if i want to modify my system to support that or not.
-  Also its better to keep and analyze the data for future versions and improvements.
+  In my opinion its better to save the new types in a database and review it - So if I see that my system doesn't support frequently used objects I will know and I can decide if I want to modify my system to support that.
+  Also its a better method to keep and analyze the data for future versions and improvements.
